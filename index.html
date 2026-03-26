@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency 2nd Assignment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; }
+        /* Figma: width 1211px, left 112px */
+        .custom-header-container {
+            width: 1211px;
+            margin-left: 112px;
+            position: absolute;
+            top: 0;
+            height: 100px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+ <!-- Header Section -->
+<body class="bg-white">
+
+    <header class="custom-header-container flex items-center">
+        
+        <div class="w-full h-[50px] relative flex items-center justify-between">
+            
+            <div class="w-[135px] h-[47px] relative">
+                <div class="absolute left-[1.46%] top-[4%] w-[130px] h-[45px]">
+                    <img src="Header/Header/Logo/Landsacpe.png" alt="Logo" class="w-full h-full object-contain">
+                </div>
+            </div>
+
+            <nav class="flex items-center space-x-[40px]">
+                <div class="relative flex flex-col items-center">
+                    <a href="" class="text-[18px] font-medium leading-[21px] text-[#2196F3] opacity-75">Services</a>
+                    <div class="absolute -bottom-[8px] left-0 w-[20px] h-[2px] bg-[#2196F3] rounded-[1px]"></div>
+                </div>
+                <a href="#" class="text-[18px] font-medium leading-[21px] text-[#2196F3] opacity-75 hover:opacity-100 transition">Our Values</a>
+                <a href="#" class="text-[18px] font-medium leading-[21px] text-[#2196F3] opacity-75 hover:opacity-100 transition">Case Studies</a>
+                <a href="#" class="text-[18px] font-medium leading-[21px] text-[#2196F3] opacity-75 hover:opacity-100 transition">Blog</a>
+                <a href="#" class="text-[18px] font-medium leading-[21px] text-[#2196F3] opacity-75 hover:opacity-100 transition">Inner Pages</a>
+            </nav>
+
+            <div class="flex items-center">
+                <button class="text-[16px] font-medium leading-[19px] uppercase text-[#302F2F] px-[15px]">
+                    Login
+                </button>
+
+                <div class="h-[21px] w-[1px] border-l border-[#979797] mx-[10px]"></div>
+
+                <button class="bg-[#2196F3] text-white text-[16px] font-medium leading-[19px] uppercase px-[25px] py-[12px] rounded-[8px] hover:shadow-lg transition-all">
+                    Register
+                </button>
+
+                <div class="ml-[25px] w-[29px] h-[29px] flex items-center justify-center">
+                    <img src="Header/Header/Logo/Header/Header/android-settings.png" alt="Settings" class="w-full h-full object-contain">
+                </div>
+            </div>
+
+        </div>
+    </header>
+ 
+    <!--Banner Section -->
+        <section class="relative w-full overflow-hidden" style="height: 800px;">
+        
+        
+
+        <div class="absolute" style="width: 950px; height: 700px; left: 590px; top: 0px;">
+            <img src="Banner/Artwork.png" alt="Banner Artwork" class="w-full h-full object-contain">
+        </div>
+
+        <div class="absolute" style="width: 596px; left: 112px; top: 220px;">
+            <h1 class="font-bold text-[48px] leading-[64px] text-black/87">
+                Aenean Facilisis Vitae
+            </h1>
+            <p class="mt-[23px] font-medium text-[24px] leading-[36px] text-black/87 w-[557px]">
+                Lorem ipsum dolor sit amet consectetur adipiscing Integer id orci sed ante tincidunt
+            </p>
+            
+            <button class="mt-[24px] relative w-[211px] h-[50px] border border-[#00BCD4] rounded-[8px] bg-white shadow-[0px_3px_24px_4px_rgba(0,0,0,0.06)] flex items-center justify-center hover:bg-[#00BCD4]/5 transition-all">
+                <span class="text-[#00BCD4] font-medium text-[16px] uppercase">Write to us</span>
+                <img src="Button/android-send.png" alt="send" class="ml-[10px] w-[15.9px] h-[18.5px]">
+            </button>
+        </div>
+
+        <div class="absolute flex items-center" style="width: 1058px; height: 89px; left: 191px; top: 652px;">
+            
+            <div class="w-[327px] relative">
+                <h3 class="text-[#2196F3] font-medium text-[36px] leading-[42px]">Business Solution</h3>
+                <p class="text-black/87 text-[18px] leading-[24px] mt-[7px]">Interdum et malesuada fames ac ante…</p>
+                <div class="mt-[9px] w-[150px] h-[6px] bg-[#2196F3] rounded-[3px]"></div>
+            </div>
+
+            <div class="mx-[19px] h-[63px] w-[1px] border-l border-black/10"></div>
+
+            <div class="w-[309px] relative">
+                <h3 class="text-black/87 font-medium text-[36px] leading-[42px]">Free project quote</h3>
+                <p class="text-black/87 text-[18px] leading-[24px] mt-[7px]">Interdum et malesuada fames ante…</p>
+            </div>
+
+            <div class="mx-[19px] h-[63px] w-[1px] border-l border-black/10"></div>
+
+            <div class="w-[326px] relative">
+                <h3 class="text-black/87 font-medium text-[36px] leading-[42px]">Nulla lobortis nunc</h3>
+                <p class="text-black/87 text-[18px] leading-[24px] mt-[7px]">Interdum et malesuada fames ac ante…</p>
+            </div>
+        </div>
+
+    </section>
+    <!--About Section -->
+            <section style="position: absolute; width: 1344px; height: 654px; left: -16px; top: 807px; font-family: 'Roboto', sans-serif;">
+
+                <div >
+                    <img src="Src/Rectangle.png" alt="Rectangle" class="w-654 h-654 top-807 left-[25px] radius-[60px] absolute opacity-10.23percent">
+                </div>
+
+                <div>
+                    <img src="Src/Rectangle (2).png" alt="Rectangle (2)" class="w-340 h-340 top-807 left-[40px] radius-[37px] absolute opacity-5.35percent">
+                </div>
+
+                <div>
+                    <img src="Src/Puzzle1.png" alt="Puzzle1 " class="w-[110.16px] h-[110.16px] top-[260px] left-[480px] radius-[15px] absolute opacity-5.35percent">
+                </div>
+
+               <div>
+                    <img src="Src/Puzzle.png" alt="Puzzle " class="w-[215.33px] h-[215.33px] top-[45px] left-[370px] radius-[15px] absolute opacity-5.35percent">
+                </div>
+
+                <div>
+                    <img src="Src/Photo.png" alt="Puzzle " class="w-[215.33px] h-[215.33px] top-[360px] left-[300px] radius-[15px] absolute opacity-5.35percent">
+                </div>
+
+                 <div>
+                    <img src="Src/WithDeco.png" alt="About us " class="w-[297px] h-[296px] top-[110px] left-[95px] radius-[15px] absolute opacity-5.35percent">
+                </div>
+
+                <!-- <div class="bg-[#2196F3] w-[654px] h-[654px] top-[807px] left-[-16px] radius-[60px] opacity-10.23percent rounded-[60px] rotate-[132deg]"> </div>    
+
+                </div> -->
+
+    <div style="position: absolute; width: 546px; left: 749px; top: 123px;">
+        <h3 style="font-weight: 500; font-size: 28px; line-height: 42px; color: rgba(0, 0, 0, 0.87); margin: 0;">
+            Nulla lobortis nunc vitae purus facilisis
+        </h3>
+        <p style="margin-top: 16px; width: 595px; font-weight: 400; font-size: 18px; line-height: 24px; color: rgba(0, 0, 0, 0.87);">
+            Vestibulum sit amet tortor libero lobortis semper at et odio. In eu tellus tellus. Pellentesque ullamcorper ultrices. Aenean facilisis vitae purus facilisis semper.
+        </p>
+    </div>
+
+    <div style="position: absolute; display: flex; left: 749px; top: 287px; gap: 30px;">
+        
+        <div style="width: 175px; text-align: center;">
+            <div style="font-weight: 700; font-size: 48px; line-height: 56px; color: rgba(0, 0, 0, 0.87);">+200</div>
+            <div style="width: 53px; height: 6px; background: #2196F3; border-radius: 18.5px; margin: 10px auto;"></div>
+            <div style="font-weight: 500; font-size: 24px; text-transform: uppercase; color: rgba(0, 0, 0, 0.87);">Employee</div>
+        </div>
+
+        <div style="width: 175px; text-align: center;">
+            <div style="font-weight: 700; font-size: 48px; line-height: 56px; color: rgba(0, 0, 0, 0.87);">+500</div>
+            <div style="width: 53px; height: 6px; background: #2196F3; border-radius: 18.5px; margin: 10px auto;"></div>
+            <div style="font-weight: 500; font-size: 24px; text-transform: uppercase; color: rgba(0, 0, 0, 0.87);">Project</div>
+        </div>
+
+        <div style="width: 175px; text-align: center;">
+            <div style="font-weight: 700; font-size: 48px; line-height: 56px; color: rgba(0, 0, 0, 0.87);">+300</div>
+            <div style="width: 53px; height: 6px; background: #2196F3; border-radius: 18.5px; margin: 10px auto;"></div>
+            <div style="font-weight: 500; font-size: 24px; text-transform: uppercase; color: rgba(0, 0, 0, 0.87);">Clients</div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+
+         <!--<div class="h-[545px] w-[1440px] top-[1505px] absolute bg-[#BBDEFB] left-[-16px] opacity-20%" >
+            </div>
+  <div class="h-[1440px] w-[440px] top-[1505px] absolute bg-[#ffffff] left-[1000px] opacity-20%" >
+            </div> -->
+            
+
+        
+
+<section class="absolute w-[1440px] h-[545px] left-[-16px] top-[1505px] flex overflow-hidden bg-[#e8f5ff] font-sans">
+    
+    <div class="relative w-[75%] h-full pt-[80px] px-[80px] z-30">
+        <h2 class="text-[56px] font-extrabold text-[#0D47A1] mb-[40px]">Our Services</h2>
+        
+        <div class="flex gap-[20px]">
+            
+            <div class="w-[280px] bg-white rounded-[35px] overflow-hidden shadow-[0_15px_35px_rgba(0,0,0,0.04)]">
+                <div class="h-40 p-3"><img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=400" class="w-full h-full object-cover rounded-[25px]"></div>
+                <div class="p-6">
+                    <h3 class="font-bold text-gray-800 text-lg mb-2">Lorem ipsum dolor</h3>
+                    <p class="text-[13px] text-gray-500 mb-6">Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus.</p>
+                    <button class="w-full py-2 border-2 border-[#1976D2] text-[#1976D2] font-bold rounded-xl text-xs">SEE DETAIL</button>
+                </div>
+            </div>
+
+            <div class="w-[280px] bg-white rounded-[35px] overflow-hidden shadow-[0_15px_35px_rgba(0,0,0,0.04)]">
+                <div class="h-40 p-3"><img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=400" class="w-full h-full object-cover rounded-[25px]"></div>
+                <div class="p-6">
+                    <h3 class="font-bold text-gray-800 text-lg mb-2">Lorem ipsum dolor</h3>
+                    <p class="text-[13px] text-gray-500 mb-6">Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus.</p>
+                    <button class="w-full py-2 border-2 border-[#1976D2] text-[#1976D2] font-bold rounded-xl text-xs">SEE DETAIL</button>
+                </div>
+            </div>
+
+            <div class="w-[280px] bg-white rounded-[35px] overflow-hidden shadow-[0_15px_35px_rgba(0,0,0,0.04)]">
+                <div class="h-40 p-3"><img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=400" class="w-full h-full object-cover rounded-[25px]"></div>
+                <div class="p-6">
+                    <h3 class="font-bold text-gray-800 text-lg mb-2">Lorem ipsum dolor</h3>
+                    <p class="text-[13px] text-gray-500 mb-6">Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus.</p>
+                    <button class="w-full py-2 border-2 border-[#1976D2] text-[#1976D2] font-bold rounded-xl text-xs">SEE DETAIL</button>
+                </div>
+            </div>
+
+            <div class="w-[280px] bg-white rounded-[35px] overflow-hidden shadow-[0_15px_35px_rgba(0,0,0,0.04)] relative z-40">
+                <div class="h-40 p-3"><img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=400" class=" w-full h-full object-cover rounded-[25px]"></div>
+                <div class="p-6">
+                    <h3 class="font-bold text-gray-800 text-lg mb-2">Lorem ipsum dolor</h3>
+                    <p class="text-[13px] text-gray-500 mb-6">Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget lobortis lacus.</p>
+                    <button class="w-full py-2 border-2 border-[#1976D2] text-[#1976D2] font-bold rounded-xl text-xs">SEE DETAIL</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-3 mt-[60px] ml-[350px]">
+            <span class="w-3 h-3 bg-blue-200 rounded-full"></span>
+            <span class="w-3 h-3 bg-blue-200 rounded-full"></span>
+            <span class="w-[30px] h-3 bg-[#1976D2] rounded-[20px]"></span>
+            <span class="w-3 h-3 bg-blue-200 rounded-full"></span>
+        </div>
+    </div>
+
+    <div class="absolute right-0 w-[35%] h-full">
+        
+        <div class="absolute inset-0 bg-[#B3E5FC] z-10" 
+             style="clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, -5% 50%);">
+        </div>
+
+        <div class="absolute inset-0 bg-white z-20 shadow-[-20px_0_50px_rgba(0,0,0,0.05)]" 
+             style="clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 5% 50%);">
+            
+            <div class="relative h-full flex flex-col items-end justify-between p-12 pr-16">
+                <a href="#" class="text-[#1976D2] font-black text-sm tracking-widest mt-4">SEE ALL</a>
+                
+                <div class="mb-10 w-full flex justify-end">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS044zqWJYqDtZGPsUjzywjkNniJEJZMEv8bg&s" class="w-64 h-64 object-contain">
+                </div>
+
+                <div class="flex gap-4">
+                    <button class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-200 text-[#1976D2] shadow-sm"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /></svg></button>
+                    <button class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-200 text-[#1976D2] shadow-sm"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<!--Our Expertise-->  
+
+       <div class=" w-[635.25px] h-[635.25px] top-[2080px] left-[25.28px] absolute ">
+        <img src="Src/Illustration & Title.png" alt="">
+       </div>
+
+<div style="position: absolute; width: 612px; height: 127px; left: 680px; top: 2150px;">
+    <h3 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 28px; line-height: 42px; color: rgb(0, 0, 0); margin: 0;">
+        Nulla lobortis nunc vitae nisi semper velit
+    </h3>
+    <p style="margin-top: 12px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 18px; line-height: 24px; color: rgba(0, 0, 0, 0.87);">
+        Vestibulum sit amet tortor libero lobortis semper at et odio. In eu tellus tellus. Pellentesque ullamcorper ultrices. Aenean facilisis vitae purus facilisis semper.
+    </p>
+</div>
+
+<div style="position: absolute; width: 612px; left: 680px; top: 2310px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+    
+    <div style="width: 286px; height: 152px;">
+        <div style="width: 34px; height: 34px; background: #BBDEFB; border-radius: 6px; transform: rotate(45deg); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+            <img src="Src/Shape.png" style="width: 20px; transform: rotate(-45deg);">
+        </div>
+        <h4 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; color: rgba(0, 0, 0, 0.87); margin: 0;">Nulla lobortis nunc</h4>
+        <p style="margin-top: 6px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 16px; color: rgba(0, 0, 0, 0.87);">Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    </div>
+
+    <div style="width: 286px; height: 152px;">
+        <div style="width: 34px; height: 34px; background: #B2EBF2; border-radius: 6px; transform: rotate(45deg); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+            <img src="Src/Shape1 .png" style="width: 20px; transform: rotate(-45deg);">
+        </div>
+        <h4 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; color: rgba(0, 0, 0, 0.87); margin: 0;">Vestibulum faucibus</h4>
+        <p style="margin-top: 6px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 16px; color: rgba(0, 0, 0, 0.87);">In id nisi id neque venenatis molestie Quisque lacinia purus ut libero facilisis.</p>
+    </div>
+
+    <div style="width: 286px; height: 152px;">
+        <div style="width: 34px; height: 34px; background: #EDE7F6; border-radius: 6px; transform: rotate(45deg); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+            <img src="Src/speedometer.png" style="width: 20px; transform: rotate(-45deg);">
+        </div>
+        <h4 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; color: rgba(0, 0, 0, 0.87); margin: 0;">Suspendisse porttitor</h4>
+        <p style="margin-top: 6px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 16px; color: rgba(0, 0, 0, 0.87);">unc quis sem quis velit tincidunt congue a sit amet ante.</p>
+    </div>
+
+    <div style="width: 286px; height: 152px;">
+        <div style="width: 34px; height: 34px; background: #FBEABB; border-radius: 6px; transform: rotate(45deg); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+            <img src="Src/bulb.png" style="width: 20px; transform: rotate(-45deg);">
+                
+        </div>
+ 
+        <h4 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 24px; color: rgba(0, 0, 0, 0.87); margin: 0;">Ut sed eros</h4>
+        <p style="margin-top: 6px; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 16px; color: rgba(0, 0, 0, 0.87);">In hac habitasse platea dictumst. In mi nulla, fringilla vestibulum finibus et.</p>
+    </div>
+</div>
+<!--Testimonials-->
+
+
+        <!-- <div>
+            <img src="Src/Testimonials.png" alt="Testimonials" class="w-[1582px] h-[868px]  top-[2680px] absolute left-[-16px]">
+        </div> -->
+        <section class="absolute w-[1440px] h-[680px] left-0 top-[2825.23px] flex overflow-hidden bg-[#e8f5ff] font-sans">
+    
+    <div class="relative w-[75%] h-full pt-[100px] px-[100px] z-30">
+        <h2 class="text-[56px] font-extrabold text-[#0D47A1] mb-[60px]">Client Testimonials</h2>
+        
+        <div class="flex gap-[25px]">
+            <div class="w-[340px] bg-white p-[40px] rounded-[40px] shadow-[0_20px_40px_rgba(0,0,0,0.03)] border border-white">
+                <p class="text-[15px] text-gray-700 leading-relaxed mb-6 italic">"Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed. Vestibulum sit amet tortor sit amet libero."</p>
+                <div class="text-[#7C4DFF] text-xl mb-6">★★★★★</div>
+                <div class="flex items-center gap-4">
+                    <img src="Src/My Picture.png" class="w-[55px] h-[55px] rounded-full object-cover">
+                    <div>
+                        <div class="font-bold text-gray-800">Jane Doe</div>
+                        <div class="text-[12px] text-gray-500">Chief Digital Officer</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[340px] bg-white p-[40px] rounded-[40px] shadow-[0_20px_40px_rgba(0,0,0,0.03)] border border-white">
+                <p class="text-[15px] text-gray-700 leading-relaxed mb-6 italic">"Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed. Vestibulum sit amet tortor sit amet libero."</p>
+                <div class="text-[#7C4DFF] text-xl mb-6">★★★★★</div>
+                <div class="flex items-center gap-4">
+                    <img src="Src/Img1.jpg" class="w-[55px] h-[55px] rounded-full object-cover">
+                    <div>
+                        <div class="font-bold text-gray-800">Jane Doe</div>
+                        <div class="text-[12px] text-gray-500">Chief Digital Officer</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[340px] bg-white p-[40px] rounded-[40px] shadow-[0_20px_40px_rgba(0,0,0,0.03)] border border-white relative z-40">
+                <p class="text-[15px] text-gray-700 leading-relaxed mb-6 italic">"Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed. Vestibulum sit amet tortor sit amet libero."</p>
+                <div class="text-[#7C4DFF] text-xl mb-6">★★★★★</div>
+                <div class="flex items-center gap-4">
+                    <img src="Src/img2.avif" class="w-[55px] h-[55px] rounded-full object-cover">
+                    <div>
+                        <div class="font-bold text-gray-800">Jane Doe</div>
+                        <div class="text-[12px] text-gray-500">Chief Digital Officer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-3 mt-[50px] ml-[600px]">
+            <span class="w-3 h-3 bg-[#B2EBF2] rounded-full"></span>
+            <span class="w-3 h-3 bg-[#B2EBF2] rounded-full"></span>
+            <span class="w-3 h-3 bg-[#B2EBF2] rounded-full"></span>
+            <span class="w-[35px] h-3 bg-[#1976D2] rounded-[20px]"></span>
+            <span class="w-3 h-3 bg-[#B2EBF2] rounded-full"></span>
+        </div>
+    </div>
+
+    <div class="absolute right-0 w-[35%] h-full">
+        
+        <div class="absolute inset-0 bg-[#B3E5FC] z-10" 
+             style="clip-path: polygon(100% 0, 100% 100%, 20% 100%, -5% 50%, 20% 0);">
+        </div>
+
+        <div class="absolute inset-0 bg-white z-20 shadow-[-15px_0_35px_rgba(0,0,0,0.03)]" 
+             style="clip-path: polygon(100% 0, 100% 100%, 30% 100%, 10% 50%, 30% 0);">
+            
+            <div class="relative h-full flex flex-col items-center justify-between p-12 py-24">
+                <div class="w-full flex justify-center translate-x-20">
+                    <img src="https://static.vecteezy.com/system/resources/previews/056/987/487/non_2x/testimonial-icon-in-red-color-vector.jpg" class="w-80 h-80 object-contain">
+                </div>
+
+                <div class="flex gap-4 self-end mr-8">
+                    <button class="w-12 h-12 flex items-center justify-center rounded-full border border-gray-100 text-[#1976D2] bg-white shadow-sm transition hover:bg-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /></svg>
+                    </button>
+                    <button class="w-12 h-12 flex items-center justify-center rounded-full border border-gray-100 text-[#1976D2] bg-white shadow-sm transition hover:bg-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Logo-->
+
+        <div>
+            <img src="Src/All logo.png" alt="Logo" class="w-[886px] h-[68px] object-cover top-[3550px] absolute left-[240px]">
+        </div>
+
+<!--Case Studies-->
+
+
+<section class="absolute overflow-hidden bg-white flex items-start" 
+         style="width: 1189px; height: 568px; left: 137px; top: 3700px;">
+    
+    <div class="w-[230px] flex flex-col pt-2 pr-4">
+        <h2 class="mb-10" style="font-family: 'Roboto'; font-weight: 700; font-size: 52px; line-height: 1.2; color: #0D47A1;">
+            Case <br> Studies
+        </h2>
+        <div class="flex flex-col gap-2">
+            <div class="w-[195px] px-6 py-2 bg-[#BBDEFB] rounded-[8px] text-[#0D47A1] font-medium text-[24px]">Corporate</div>
+            <div class="text-[#0D47A1] text-[24px] px-6 py-2 hover:bg-gray-50 cursor-pointer">Advertising</div>
+            <div class="text-[#0D47A1] text-[24px] px-6 py-2 hover:bg-gray-50 cursor-pointer">Marketing</div>
+            <div class="text-[#0D47A1] text-[24px] px-6 py-2 hover:bg-gray-50 cursor-pointer">Government</div>
+            <div class="text-[#0D47A1] text-[24px] px-6 py-2 hover:bg-gray-50 cursor-pointer">Creative</div>
+        </div>
+    </div>
+
+    <div class="flex-1 grid grid-cols-[1.2fr,1fr] gap-6 h-full pb-4">
+        
+        <div class="h-full">
+            <div class="relative h-full rounded-[40px] overflow-hidden shadow-2xl group">
+                <img src="Src/Case Study 1.jpg" alt="Viral Summer Campaign" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent flex items-end p-8">
+                    <div class="flex items-center gap-4">
+                        <img src="Src/My Picture.png" class="w-16 h-16 rounded-full border-2 border-white object-cover" alt="Profile">
+                        <div class="text-white">
+                            <h3 class="font-bold text-2xl">Viral Summer Campaign</h3>
+                            <p class="text-sm opacity-90">10 million+ reach campaign analytics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-rows-2 gap-6 h-full">
+            <div class="relative rounded-[30px] overflow-hidden shadow-lg group">
+                <img src="Src/Case Study 2.jpeg" alt="ROI Marketing" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-transparent flex items-end p-5">
+                    <div class="flex items-center gap-3">
+                        <img src="Src/My Picture.png" class="w-10 h-10 rounded-full border-2 border-white object-cover" alt="Profile">
+                        <div class="text-white">
+                            <h4 class="font-bold text-base leading-tight">ROI Marketing</h4>
+                            <p class="text-[11px] opacity-80">5x return on investment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative rounded-[30px] overflow-hidden shadow-lg group">
+                <img src="Src/Case Study 3.jpeg" alt="Smart City" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-transparent flex items-end p-5">
+                    <div class="flex items-center gap-3">
+                        <img src="Src/My Picture.png" class="w-10 h-10 rounded-full border-2 border-white object-cover" alt="Profile">
+                        <div class="text-white">
+                            <h4 class="font-bold text-base leading-tight">Smart City Infrastructure</h4>
+                            <p class="text-[11px] opacity-80">Digital urban planning study.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+ 
+<!--Contact -->
+
+
+<section class="absolute overflow-hidden flex items-center" 
+         style="width: 1215px; height: 168.21px; left: 113px; top: 4380px; background: #2196F3; border-radius: 24px;">
+    
+    <div class="absolute" style="width: 629px; height: 82px; left: 74px; top: 43px;">
+        <h2 style="font-family: 'Roboto'; font-weight: 700; font-size: 36px; line-height: 42px; color: #FFFFFF; margin-bottom: 12px;">
+            Ready to get started?
+        </h2>
+        <p style="font-family: 'Roboto'; font-weight: 500; font-size: 24px; line-height: 28px; color: #FFFFFF;">
+            Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.
+        </p>
+    </div>
+
+    <button class="absolute flex items-center justify-center transition-all hover:shadow-lg active:scale-95" 
+            style="width: 232px; height: 55px; left: 915px; top: 57px; background: #FFFFFF; border: 1px solid #2196F3; border-radius: 8px; box-shadow: 0px 3px 24px 4px rgba(0, 0, 0, 0.06);">
+        
+        <div class="relative flex items-center gap-3">
+            <span style="font-family: 'Roboto'; font-weight: 500; font-size: 16px; line-height: 19px; text-align: center; text-transform: uppercase; color: #2196F3;">
+                Write to us
+            </span>
+            
+            <svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 20.35V12.7188L7.33333 10.175L0 7.63125V0L17.49 10.175L0 20.35Z" fill="#2196F3"/>
+            </svg>
+        </div>
+    </button>
+
+</section>
+
+<!-- Footer -->
+
+
+<footer class="absolute bg-white overflow-hidden" 
+        style="width: 1391px; height: 380px; left: 21px; top: 4650px;">
+    
+  <div class="absolute bg-[#00BCD4] opacity-5 rounded-[30px] " style=" width: 150px; height: 150px;  left: 80.5%; right: 11%; top: 9%; bottom: 21.94%; transform: rotate(45deg);"></div>
+    <div class="absolute bg-[#2196F3] opacity-5 rounded-[18px]" style="width: 110px; height: 110px; : left: 80.73%; right: 7%; top: 3%; bottom: 46.94%;transform: rotate(135deg);"></div>
+   
+   <div class="absolute bg-[#00BCD4] opacity-5 rounded-[30px] " style=" width: 150px; height: 150px;  left: 5%; right: 11%; top: 30%; bottom: 15%; transform: rotate(45deg);"></div>
+    <div class="absolute bg-[#2196F3] opacity-5 rounded-[30px] " style=" width: 110px; height: 110px;  left: 3%; right: 15%; top: 20%; bottom: 15%; transform: rotate(45deg);"></div>
+   
+   
+   
+    <!-- <div class="absolute bg-[#00BCD4] opacity-5 rounded-[30px]" style="left: 1.58%; right: 80.09%; top: 29.44%; bottom: 0%;"></div>
+    <div class="absolute bg-[#2196F3] opacity-5 rounded-[18px]" style="left: 0%; right: 86.27%; top: 16.11%; bottom: 30.83%;"></div>-->
+
+     
+
+
+
+
+    <div class="absolute" style="width: 1170px; height: 211px; left: 91px; top: 52px;">
+        
+        <div class="absolute" style="left: 0%; top: 0%; width: 250px;">
+            <div class="flex items-center gap-2 mb-6">
+                
+               
+                <div>
+                    <img src="Header/Header/Logo/Landsacpe.png" alt="Logo" class="w-[137px] h-[50px] object-cover">
+                </div>
+            
+            </div>
+            <p style="font-family: 'Roboto'; font-size: 16px; line-height: 24px; color: rgba(0, 0, 0, 0.54);">
+                Nam posuere accumsan porta. Integer id orci sed ante tincidunt tincidunt sit amet sed libero.
+            </p>
+            <p class="mt-8" style="font-family: 'Roboto'; font-size: 16px; color: rgba(0, 0, 0, 0.54);">
+                © Skyrev Theme 2020
+            </p>
+        </div>
+
+        <div class="absolute" style="left: 28.76%; top: 0%;">
+            <h4 class="mb-6" style="font-family: 'Roboto'; font-weight: 700; font-size: 18px; color: #0D47A1; text-transform: uppercase;">COMPANY</h4>
+            <ul class="space-y-3" style="font-family: 'Roboto'; font-size: 16px; line-height: 20px; color: rgba(0, 0, 0, 0.54);">
+                <li>Donec dignissim</li>
+                <li>Curabitur egestas</li>
+                <li>Nam posuere</li>
+                <li>Aenean facilisis</li>
+            </ul>
+        </div>
+
+        <div class="absolute" style="left: 43.64%; top: 0%;">
+            <h4 class="mb-6" style="font-family: 'Roboto'; font-weight: 700; font-size: 18px; color: #0D47A1; text-transform: uppercase;">SERVICES</h4>
+            <ul class="space-y-3" style="font-family: 'Roboto'; font-size: 16px; line-height: 20px; color: rgba(0, 0, 0, 0.54);">
+                <li>Cras convallis</li>
+                <li>Vestibulum faucibus</li>
+                <li>Quisque lacinia purus</li>
+                <li>Aliquam nec ex</li>
+            </ul>
+        </div>
+
+        <div class="absolute" style="left: 58.52%; top: 0%;">
+            <h4 class="mb-6" style="font-family: 'Roboto'; font-weight: 700; font-size: 18px; color: #0D47A1; text-transform: uppercase;">RESOURCES</h4>
+            <ul class="space-y-3" style="font-family: 'Roboto'; font-size: 16px; line-height: 20px; color: rgba(0, 0, 0, 0.54);">
+                <li>Suspendisse porttitor</li>
+                <li>Nam posuere</li>
+                <li>Curabitur egestas</li>
+            </ul>
+        </div>
+
+        <div class="absolute" style="left: 80%; top: 0%;">
+            <div class="flex gap-4 mb-10">
+                <div class="w-[37.5px] h-[37.5px] bg-[#EBEBEB] rounded-full flex items-center justify-center cursor-pointer hover:bg-[#2196F3]/20 transition-all">
+                    <span class="text-[#2196F3] font-bold">f</span>
+                </div>
+                <div class="w-[37.5px] h-[37.5px] bg-black/5 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#2196F3]/20 transition-all">
+                    <span class="text-[#2196F3] font-bold">in</span>
+                </div>
+                <div class="w-[37.5px] h-[37.5px] bg-black/5 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#2196F3]/20 transition-all">
+                    <span class="text-[#2196F3] font-bold">t</span>
+                </div>
+                <div class="w-[37.5px] h-[37.5px] bg-black/5 rounded-full flex items-center justify-center cursor-pointer hover:bg-[#2196F3]/20 transition-all">
+                    <span class="text-[#2196F3] font-bold">ig</span>
+                </div>
+            </div>
+
+            <div class="flex items-center px-4 py-2 border border-[#2196F3] rounded-[5px] cursor-pointer hover:bg-[#2196F3]/5" style="width: 211px; height: 38.5px;">
+                <span class="text-[#0D47A1] mr-3">🌐</span>
+                <span style="font-family: 'Roboto'; font-weight: 500; font-size: 18px; color: #000000;">English - En</span>
+                <span class="ml-auto text-gray-400 text-xs">▼</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
+
